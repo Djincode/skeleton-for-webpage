@@ -1,57 +1,75 @@
-ul, h1 {
-    display: inline-block;
+/* defaults */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+   
+}
+/* defaults ends */
+/* Header */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 100%;
+    height: 50px;
+}
+.mogo{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    
 }
 li{
     display: inline;
-    margin: 5px;
-    padding: 5px;
-    font-size: 25px;
-    background-color: brown;
-    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+   
 }
-ul{
-    margin-left: 55%;
+.button:hover {
+    color:#000!important;
+    background-color:#ccc!important;
+  
 }
-h1{
-    margin-left: 30px;
+.button {
+    padding: 8px 16px;
 }
-#header{
-    width: %;
-    height: 75px;
-    background-color: blue;
-    border-radius: 8px;
-    margin: 5px;
+.logo {
+    margin-left: 16px;
 }
-#sol{
-    width: 20%;
-    height: 1000px;
-    display: inline-block;
-    background-color: brown;
-    margin: 5px;
-    border-radius: 8px;
-}
-#main {
-    width: 57%;
-    height: 1000px;
-    display: inline-block;
-    background-color: chartreuse;
-    margin: 5px;
-    border: springgreen;
-    border-radius: 8px;
-}
-#sag {
-    width: 20%;
-    height: 1000px;
-    display: inline-block;
-    background-color: blueviolet;
-    margin: 5px;
-    border-radius: 8px;
+/* Header ends */
+
+/* body */
+
+#boddy {
+    display: flex;
+    justify-content: space-evenly;
 
 }
-#footer {
-    width: %;
-    height: 75px;
-    background-color: chocolate;
-    margin: 5px;
-    border-radius: 8px;
+.left {
+
+    width: 20%;
+    height: 1000px;
+    border: solid 2px black;
+    border-radius: 6px;
+    
 }
+.main {
+    width: 58%;
+    height: 1000px;
+    border: #000 solid 2px;
+    border-radius: 6px;
+
+}
+.right {
+    width: 20%;
+    height: 1000px;
+    border: #000 solid 2px;
+    border-radius: 6px;
+}
+
