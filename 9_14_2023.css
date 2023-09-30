@@ -58,6 +58,8 @@ a {
     height: 1000px;
     border: solid 2px black;
     border-radius: 6px;
+    background-image: url("img_girl.jpg");
+    overflow: hidden;
     
 }
 .main {
@@ -74,13 +76,15 @@ a {
     border-radius: 6px;
 }
 #sidebar {
-     width: 275px;
+     width: 270px;
      height: 1000px;  
     position: absolute;
     top: 50;
     left: -100%;
     background-color: blue;
     display: flex;
+    margin-left: 5px;
+    
     justify-content: space-between;
     
     align-items: flex-start;
@@ -102,6 +106,7 @@ a {
 
     left: 0;
     transition: all 0.5s ease-in-out;
+    overflow: hidden;
 }
  
 #sidebar>#sidebaritems>ul>li {
