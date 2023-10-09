@@ -20,6 +20,12 @@ body {
  
 }
 
+main{
+  display: flex;
+  justify-content: center;
+  
+  
+}
 
 .logo {
   color: var(--color-white);
@@ -74,8 +80,10 @@ body {
   left: 0;
   top: 100%;
   background-color: var(--color-black);
+  z-index: 1;
 }
 .menu ul li:hover .drp ul {
+  position: relative;
   display: block;
   margin: 10px;
 }
@@ -144,4 +152,76 @@ body {
   left: 0;
   transition: all 0.5s ease-in-out;
     
+}
+
+#wrapper-container {
+  justify-content: center;
+ 
+  
+  
+  
+
+
+
+}
+
+
+#slider-wrapper{
+  width: 75%;
+  margin: 50px auto;
+  height: 80vh;
+  position: relative;
+}
+#slider-wrapper img{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+#slider-wrapper img.active{
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+
+.icon{
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  padding:10px;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.left-icon{
+  left:3%;
+}
+.right-icon{
+  right:3%;
+}
+
+#thumbnail-wrapper{
+  width: 75%;
+  margin:auto;
+  height: 150px;
+  display: flex;
+}
+
+#thumbnail-wrapper img{
+  width: 20%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+
+}
+#thumbnail-wrapper img.active{
+  transform: scale(1.1,1.1);
+  transition: all 0.4s ease-in-out;
+}
+#thumbnail-wrapper img:hover{
+  transform: scale(1.1,1.1);
+  transition: all 0.4s ease-in-out;
 }
