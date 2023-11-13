@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body {
+    min-width: 400px;
+}
+
+#input-el {
+    width: 99%;
+    height: 40px;
+    margin: 10px 5px 10px 5px;
+    box-sizing: border-box;
+    border: 1px solid brown;
+
+}
+
+
+#input-btn {
+    background-color: green;
+    color: aliceblue;
+    margin-left: 5px;
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 5px; 
+    border: none
+
+    
+}
+
+#ul-l {
+     margin-left: 5px;
+}
+.btn {
+    background-color: green;
+    color: aliceblue;
+    margin-left: 5px;
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 5px; 
+    border: none
+
+
+}
+
